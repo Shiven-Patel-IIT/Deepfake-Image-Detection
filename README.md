@@ -15,9 +15,11 @@ ViT Transformer used: CLIP ViT B-16 and ImageNet ViT B-16
 Autoencoder latent dimention : 200
 
 Accuracies for XGBoost (embedded):
+
 Dalle:
 •	ImageNet ViT: 83.44%
 •	Clip ViT: 83.77%
+
 Glide 100 27
 •	ImageNet ViT: 90.61%
 •	Clip ViT: 87.68%
@@ -31,3 +33,7 @@ Dependencies:
 •	PIL
 •	NumPy
 •	Pandas
+
+Usage:
+
+As the project was developed on Google Colab, the code is available in the form of a Jupyter Notebook (.ipynb). You can directly access and run the notebook on Google Colab by uploading the .ipynb file to your Colab environment.
